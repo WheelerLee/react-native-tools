@@ -1,0 +1,33 @@
+{
+  "name": "react-native-tools",
+  "version": "1.0.0",
+  "description": "react native 开发常用工具集合",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf lib; tsc;",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WheelerLee/react-native-tools.git"
+  },
+  "peerDependencies": {
+    "react": "^16.0",
+    "react-native": ">=0.57 <0.60"
+  },
+  "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "typescript": "^3.5.3"
+  },
+  "author": "WheelerLee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WheelerLee/react-native-tools/issues"
+  },
+  "homepage": "https://github.com/WheelerLee/react-native-tools#readme",
+  "dependencies": {
+    "@types/react": "^16.8.25",
+    "@types/react-native": "^0.60.3"
+  }
+}
